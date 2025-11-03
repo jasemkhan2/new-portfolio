@@ -16,22 +16,18 @@ const Hero = () => {
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Dual-toned animated background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-background via-secondary/40 to-primary/10" />
+      {/* Background gradient */}
+      <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-secondary/20" />
       
-      {/* Dual-toned glow effects */}
-      <div className="absolute top-1/4 -left-32 w-96 h-96 bg-gradient-to-br from-primary/30 to-accent/20 rounded-full blur-[120px] animate-glow-pulse" />
-      <div className="absolute bottom-1/4 -right-32 w-96 h-96 bg-gradient-to-tl from-accent/30 to-primary/20 rounded-full blur-[120px] animate-glow-pulse" style={{ animationDelay: "1s" }} />
-      
-      {/* Mouse-following spotlight */}
+      {/* Concentrated mouse-following spotlight - violet to blue */}
       <div 
-        className="absolute w-[600px] h-[600px] rounded-full pointer-events-none transition-opacity duration-300 opacity-0 hover:opacity-100"
+        className="absolute w-[200px] h-[200px] rounded-full pointer-events-none"
         style={{
           left: `${mousePosition.x}px`,
           top: `${mousePosition.y}px`,
           transform: 'translate(-50%, -50%)',
-          background: 'radial-gradient(circle, hsl(var(--primary) / 0.15) 0%, hsl(var(--accent) / 0.1) 30%, transparent 70%)',
-          filter: 'blur(40px)',
+          background: 'radial-gradient(circle, hsl(270 100% 70% / 0.4) 0%, hsl(220 100% 60% / 0.2) 20%, transparent 60%)',
+          filter: 'blur(20px)',
           opacity: mousePosition.x > 0 ? 1 : 0,
         }}
       />
