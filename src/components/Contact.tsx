@@ -21,7 +21,7 @@ const Contact = () => {
               className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold shadow-lg hover:shadow-glow transition-all duration-300 w-full sm:w-auto"
               asChild
             >
-              <a href="mailto:jasem@example.com">
+              <a href="mailto:jasemajkhan@gmail.com">
                 <Mail className="w-5 h-5 mr-2" />
                 Email Me
               </a>
@@ -33,7 +33,7 @@ const Contact = () => {
               className="border-primary/50 text-foreground hover:bg-primary/10 hover:border-primary font-semibold w-full sm:w-auto"
               asChild
             >
-              <a href="https://linkedin.com/in/jasemkhan" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/jasem-abdul-javeed-khan-08b13b203/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="w-5 h-5 mr-2" />
                 LinkedIn
               </a>
@@ -45,7 +45,7 @@ const Contact = () => {
               className="border-primary/50 text-foreground hover:bg-primary/10 hover:border-primary font-semibold w-full sm:w-auto"
               asChild
             >
-              <a href="https://github.com/jasemkhan" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/jasemkhan2" target="_blank" rel="noopener noreferrer">
                 <Github className="w-5 h-5 mr-2" />
                 GitHub
               </a>

@@ -68,7 +68,7 @@ const Hero = () => {
 
           <div className="flex items-center justify-center gap-6 pt-8">
             <a 
-              href="https://github.com/jasemkhan" 
+              href="https://github.com/jasemkhan2" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -76,7 +76,7 @@ const Hero = () => {
               <Github className="w-6 h-6" />
             </a>
             <a 
-              href="https://linkedin.com/in/jasemkhan" 
+              href="https://www.linkedin.com/in/jasem-abdul-javeed-khan-08b13b203/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-primary transition-colors"
@@ -84,7 +84,7 @@ const Hero = () => {
               <Linkedin className="w-6 h-6" />
             </a>
             <a 
-              href="mailto:jasem@example.com"
+              href="mailto:jasemajkhan@gmail.com"
               className="text-muted-foreground hover:text-primary transition-colors"
             >
               <Mail className="w-6 h-6" />
