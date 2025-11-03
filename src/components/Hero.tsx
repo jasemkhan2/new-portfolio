@@ -19,14 +19,14 @@ const Hero = () => {
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-secondary/20" />
       
-      {/* Concentrated mouse-following spotlight - violet to blue */}
+      {/* Concentrated mouse-following spotlight - red */}
       <div 
         className="absolute w-[200px] h-[200px] rounded-full pointer-events-none"
         style={{
           left: `${mousePosition.x}px`,
           top: `${mousePosition.y}px`,
           transform: 'translate(-50%, -50%)',
-          background: 'radial-gradient(circle, hsl(270 100% 70% / 0.4) 0%, hsl(220 100% 60% / 0.2) 20%, transparent 60%)',
+          background: 'radial-gradient(circle, hsl(0 100% 65% / 0.4) 0%, hsl(10 100% 55% / 0.2) 20%, transparent 60%)',
           filter: 'blur(20px)',
           opacity: mousePosition.x > 0 ? 1 : 0,
         }}
